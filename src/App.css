@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.menu {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-size: calc(5px + 2vmin);
+  color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 3px;
+  left: 0;
+  z-index: 100;
+}
+
+
+.menu-item {
+  
+  min-width: 15rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  
+  font-size: calc(5px + 2vmin);
+  color: white;
+  margin-left: 2rem;
+  margin-top: 2rem;
+ 
+}
+
+.menu-item :hover {
+  color: #61dafb;
+}
+
+.menu-item a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.comments {
+
+  color:inherit;
+  background-color:inherit ;
+  list-style-type: none;
+  margin-top: 12px;
+  
+
+ 
+}
+
+.comment-item {
+
+
+  display: flex;
+  justify-content: start;
+  font-size: calc(5px + 2vmin);
+  color:inherit;
+  border: rgb(167, 165, 165) solid 0.5px;
+  border-radius: 9px;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 2px;
+  margin-top: 7px;
+ 
+}
+
+
+
