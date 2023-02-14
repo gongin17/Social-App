@@ -5,14 +5,14 @@ import { getStorage } from "firebase/storage";
 import { getMessaging, getToken, onMessage } from "firebase/messaging";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyABCj3WlcolVmWfnE1inaev4xlhnW4vhs4",
-  authDomain: "web-app-aa382.firebaseapp.com",
-  databaseURL: "https://web-app-aanpm382.firebaseio.com",
-  projectId: "web-app-aa382",
-  storageBucket: "web-app-aa382.appspot.com",
-  messagingSenderId: "804157920991",
-  appId: "1:804157920991:web:744552c94c5e4efdf93b6a",
-  measurementId: "G-RBZ46J575E",
+  apiKey: "",
+  authDomain: "",
+  databaseURL: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: "",
 };
 
 const appFirebase = initializeApp(firebaseConfig);
@@ -31,7 +31,7 @@ export const requestPermission=()=> {
 
       getToken(messaging, {
         vapidKey:
-          'BIgTWsWYt1am62JhZWBn-y2Ihl90N3Tp5LmZIqwKCZvsfPUWs_KXY2CXRUtufa0_9p0a0aHdMXUow6mT8IgY2bI',
+          '',
       })
         .then((currentToken) => {
           if (currentToken) {
